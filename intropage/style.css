@@ -1,0 +1,146 @@
+/*intro*/
+.intro{
+  text-align: center;
+  background-color: antiquewhite;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+.intro a{
+  text-decoration: none;
+  color: red;
+}
+
+/*end of intro*/
+
+/*intro_detail*/
+.intro_detail{
+   font-size: 20px;
+}
+.intro_detail h1{
+  text-align: center;
+}
+.intro_detail p{
+  text-indent: 30px;
+}
+
+/*end of intro_detail*/
+
+/*field_active*/
+.field_active{
+  font-size: 20px;
+}
+.field_active p{
+  text-indent: 30px;
+}
+.field_active a{
+  color:#3598DB;
+}
+/*end of field_active*/
+
+/*why_A.I-SOFT*/
+.whyAISOFT{
+ margin-top: 100px;
+}
+.reason1 .reason2 .reason3::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.img_left{
+  float: left;
+  margin-right: 10px;
+}
+.reasons_right::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.icon_left {
+  float: left;
+  margin-right: 10px;
+}
+
+.text_reason_right {
+  overflow: hidden;
+}
+.whyAISOFT{
+  font-size :16px;
+}
+/*end of why_A.I-SOFT*/
+
+/* giai_phap*/
+.giai_phap{
+  padding-top:100px;
+  display: flex;
+}
+.giai_phap .img_right{
+  flex: 1;
+}
+.giai_phap .content_left{
+  flex:1;
+}
+.giai_phap li{
+  list-style: none;
+}
+.imgs4_right{
+   flex:1;
+   display:flex;
+}
+.imgs12{
+
+  display: flex;
+  flex:1;
+  flex-direction: column;
+  gap:20px;
+  
+}
+.imgs34{
+ 
+  display: flex;
+  flex:1;
+  flex-direction: column;
+  gap:20px;
+}
+imgs4_right img{
+  border: 2px solid;
+}
+.content_left li{
+  display: flex;
+  align-items: center;
+}
+.content_left li i{
+  margin-right: 10px;
+}
+/*end of giai_phap*/
+
+
+
+/*so_lieu */
+  .so_lieu{
+    height: 191px;
+    background-image: url("./photos/background_so_lieu.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .so_lieu ul{
+    display: flex;
+    flex-grow: row;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+  }
+  .so_lieu ul li{
+    font-size: 20px;
+    list-style-type: none;
+    color:white
+  }
+  
+/* end of so_lieu*/
+
+.center {
+  text-align: center;
+}
+.slick-initialized .slick-slide{
+  margin:0 10px;
+}
